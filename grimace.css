@@ -1,5 +1,6 @@
 img{
     border-radius: 100%;
+    align-items: center;
    }
    body{
        background-color: blue;
