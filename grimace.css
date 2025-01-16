@@ -2,6 +2,8 @@ img{
     border-radius: 100%;
     width: 500px;
     height: 500px;
+    max-width: 100%; /* Optional: ensures the image does not overflow its container */
+}
    }
    body{
        background-color: blue;
@@ -13,6 +15,10 @@ img{
 .center-text {
   text-align: center;
 }
-
+.container {
+  display: grid;
+  place-items: center;      /* Centers the image both horizontally and vertically */
+  height: 100vh;            /* Ensure the container has height for vertical centering */
+}
 
    
