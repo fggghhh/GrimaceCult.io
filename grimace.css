@@ -4,7 +4,8 @@ img{
    body{
        background-color: blue;
    }
-   h1, p{
+   h1{
        color: azure;
+       text-align: center;
    }
    
