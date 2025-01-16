@@ -10,11 +10,9 @@ img{
        color: azure;
        text-align: center;
    }
-.center-flex {
-  display: flex;
-  justify-content: center;  /* centers horizontally */
-  align-items: center;      /* centers vertically */
-  height: 100vh;            /* ensure the container has height for vertical centering */
+.center-text {
+  text-align: center;
 }
+
 
    
